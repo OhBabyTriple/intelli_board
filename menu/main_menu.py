@@ -31,9 +31,9 @@ class MainMenu(BaseScreen):
         self.add_widget(layout)
 
     def start_training(self, instance):
-        # 切换到训练模式界面
+        # 切换训练模式界面
         self.manager.current = 'training'
 
     def start_virtual_competition(self, instance):
-        # 切换到虚拟比赛界面
+        # 切换虚拟比赛界面
         self.manager.current = 'virtual_competition'
